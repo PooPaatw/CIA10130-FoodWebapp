@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+h1 {
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	font-size: 3em;
+}
 h2 {
 	font-weight: bolder;
 	text-align: center;

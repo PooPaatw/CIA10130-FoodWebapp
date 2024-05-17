@@ -62,11 +62,11 @@ show=showtimeInfoDAO.getshowtimeId(showid);
 
 <!-- 主要css -->
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/food/css/orderStore.css" />
+	href="${pageContext.request.contextPath}/orderTicket/css/orderStore.css" />
 <link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/food/css/index.css" />
+	href="${pageContext.request.contextPath}/orderTicket/css/index.css" />
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/food/css/order.css" />
+	href="${pageContext.request.contextPath}/orderTicket/css/order.css" />
 </head>
 
 
@@ -138,11 +138,11 @@ show=showtimeInfoDAO.getshowtimeId(showid);
 
 
 	<div>
-		<h2>線上訂票</h2>
+		<h1>線上訂票</h1>
 		<div class="listing-item mb-20 section dark-translucent-bg">
 			<div class="grid-space-0">
-				<div class="call-to-action text-center">
-					<h2 class="title">選擇電影票</h2>
+				<div class="call-to-action text-center" >
+					<h2 class="title" Align="Center">選擇電影票</h2>
 					<p Align="Center">
 						選擇您希望購買的電影票張數和類型.<br> 請注意系統將自動為您保留可訂的最佳座位, 若選擇特殊票種須到櫃台確認身分
 					</p>
@@ -314,11 +314,11 @@ show=showtimeInfoDAO.getshowtimeId(showid);
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script
-		src="${pageContext.request.contextPath}/food/js/jquery-3.4.1.min.js"></script>
+		src="${pageContext.request.contextPath}/orderTicket/js/jquery-3.4.1.min.js"></script>
 
 	<!-- 主要js -->
-	<script src="${pageContext.request.contextPath}/food/js/index.js"></script>
-	<script src="${pageContext.request.contextPath}/food/js/orderStore.js"></script>
-	<script src="${pageContext.request.contextPath}/food/js/order.js"></script>
+	<script src="${pageContext.request.contextPath}/orderTicket/js/index.js"></script>
+	<script src="${pageContext.request.contextPath}/orderTicket/js/orderStore.js"></script>
+	<script src="${pageContext.request.contextPath}/orderTicket/js/order.js"></script>
 </body>
 </html>
