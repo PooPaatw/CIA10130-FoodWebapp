@@ -44,7 +44,7 @@ public class FoodServlet extends HttpServlet {
 
 	        req.setAttribute("foodList", foodList);
 
-	        return "/food/orderticket.jsp";
+	        return "/food/index.jsp";
 	    } catch (Exception e) {
 	        e.printStackTrace(); 
 	        return "/error.jsp"; 
